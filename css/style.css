@@ -1,0 +1,101 @@
+div#navLinks ul li:nth-child(4) a{
+    background-color: rgb(76, 0, 255);
+    padding: 8px 20px;
+    border-radius: 12px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div#navLinks ul li:nth-child(3) a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+div#navLinks ul li:nth-child(2) a, div#navLinks ul li:nth-child(1) a{
+    font-size: 18px;
+}
+div#about, div#admin{
+    min-height: 350px;
+    background-color: rgba(0,0,0,0.23);
+    color: black;
+}
+div#about p.text-center{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 35px;
+}
+div#users{
+    background-image: url("../images/christian-wiediger-WkfDrhxDMC8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+div#users div.rgba{
+    background-color: rgba(0,0,0,0.5);
+    min-height: 350px;
+}
+div.rgba h5.text-center{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+}
+p a.user_login{
+    padding: 9px 24px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    border: 3px solid rgb(76, 0, 255);
+    border-radius: 25px;
+}
+p a.user_login:hover{
+    padding: 9px 24px;
+    text-decoration: none;
+    color: rgb(76, 0, 255);
+    font-size: 25px;
+    border: 3px solid rgba(76, 0, 255, 0.781);
+    border-radius: 25px;
+    background-color: white;
+}
+p a.user_signup{
+    padding: 14px 24px;
+    text-decoration: none;
+    color: rgb(76, 0, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 25px;
+}
+p a.user_signup:hover{
+    padding: 14px 24px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 3px solid rgb(76, 0, 255);
+}
+p a.admin_login{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+p a.admin_signup{
+    padding: 9px 24px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    border: 3px solid rgba(0,0,0,0.5);
+   
+}
+p a.admin_login:hover{
+    padding: 9px 24px;
+    text-decoration: none;
+    color: black;
+    border: 3px solid white;
+    background-color: white;
+}
+p a.admin_signup:hover{
+    color: white;
+    background-color: black;
+}

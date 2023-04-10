@@ -1,0 +1,25 @@
+body{
+    background: radial-gradient(circle, white, rgb(182, 181, 200));
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+div.header{
+background-color:rgb(76, 0, 255);
+border: none;
+}
+div.body{
+    background-color: white;
+}
+h4.signup_heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button.btn{
+    background-color: rgb(76, 0, 255);
+}
+label{
+    color: gray;
+}
+div.header, div.body{
+    border-radius: 15px;
+}
